@@ -18,7 +18,9 @@ public class Ejemplo3While {
         while (fahrenheit <= VALOR_FINAL ){
 	       //hace los calculos de fahrenheit a celsius
                celsius = 5*(fahrenheit - 32)/9.0;
+	       //utiliza printf para darle forma de tabla a los resultados que muestra
                System.out.printf("%7d \t %8.3f \n", fahrenheit, celsius);
+	       //a la variable fahrenheit le suma el valor de la variable PASO
                fahrenheit += PASO;
         }
     }

@@ -12,6 +12,7 @@ public class Ejemplo1For {
         double celsius;
         fahrenheit = VALOR_INICIAL;
         System.out.printf("Fahrenheit \t Celsius \n");
+	//crea el bucle for. A la variable fahrenheit se le da el valor de la variable VALOR_INICIAL. Entra en el bucle siempre que fahrenheit sea igual o menor que la variable VALOR_FINAL. A la variable fahrenheit se le suma el valor de la variable PASO.
         for (fahrenheit = VALOR_INICIAL; fahrenheit <= VALOR_FINAL;
               fahrenheit+= PASO) {
              celsius = 5*(fahrenheit - 32)/9.0;

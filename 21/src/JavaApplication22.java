@@ -8,7 +8,9 @@ public class JavaApplication22 {
         int x, n;
         //mostrar la cabecera de la tabla
         System.out.printf("%10s%10s%10s%10s%n", "x","x^2","x^3","x^4");
+	//entra en el bucle hasta que x sea 10
         for (x = 1; x <= XMAX; x++){   //filas
+	     //entra en el bucle para calcular la x^1 x^2 x^3 y x^4.
              for (n = 1; n <= 4; n++){   //columnas
                   System.out.printf("%10.0f", Math.pow(x,n));
              }
